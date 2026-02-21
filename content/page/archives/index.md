@@ -1,11 +1,4 @@
 ---
-title: "Archives"
-date: 2019-05-28
+title: "아카이브"
 layout: "archives"
-slug: "archives"
-menu:
-    main:
-        weight: -70
-        params: 
-            icon: archives
 ---

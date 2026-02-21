@@ -1,8 +1,3 @@
 ---
-menu:
-    main:
-        name: Home
-        weight: -100
-        params:
-            icon: home
+title: "정보톡톡"
 ---

@@ -7,7 +7,7 @@ favicon        = "img/avatar.png"
 
 [sidebar]
     emoji    = "✏️"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    subtitle = "세상의 정보를 한번 알아보자"
     avatar   = "img/avatar.png"
 
 [article]
