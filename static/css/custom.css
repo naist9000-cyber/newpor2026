@@ -1,0 +1,44 @@
+body {
+  background-color: #f4f5f7 !important;
+  font-family: 'Pretendard', -apple-system, sans-serif !important;
+}
+
+.container {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
+
+#header {
+  background-color: #ffffff !important;
+  border-radius: 30px !important;
+  padding: 20px 30px !important;
+  margin: 30px 20px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  border-bottom: none !important;
+}
+
+.logo-wrapper .logo {
+  font-family: 'Pretendard', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  color: #222 !important;
+}
+
+.menu-item-link {
+  font-family: 'Pretendard', sans-serif !important;
+  color: #555 !important;
+}
+
+.post {
+  background-color: #ffffff !important;
+  border-radius: 16px !important;
+  padding: 30px !important;
+  margin: 0 20px 30px 20px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
+  border-bottom: none !important;
+}
+
+.post-header .post-title {
+  font-weight: 700 !important;
+  font-size: 24px !important;
+}
