@@ -41,4 +41,5 @@ enableEmoji = true
     [markup.highlight]
         noClasses = false
 
+
 theme = 'hugo-theme-stack'
