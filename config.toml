@@ -42,4 +42,5 @@ enableEmoji = true
         noClasses = false
 
 
+
 theme = 'hugo-theme-stack'
