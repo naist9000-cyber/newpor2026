@@ -6,6 +6,37 @@
     [ko.params.sidebar]
         subtitle = "세상의 정보를 한번 알아보자"
 
+    [[ko.menu.main]]
+        identifier = "home"
+        name       = "홈"
+        url        = "/"
+        weight     = 1
+        [ko.menu.main.params]
+            icon = "home"
+
+    [[ko.menu.main]]
+        identifier = "archives"
+        name       = "아카이브"
+        url        = "/archives/"
+        weight     = 2
+        [ko.menu.main.params]
+            icon = "archives"
+
+    [[ko.menu.main]]
+        identifier = "search"
+        name       = "검색"
+        url        = "/search/"
+        weight     = 3
+        [ko.menu.main.params]
+            icon = "search"
+
+    [[ko.menu.social]]
+        identifier = "github"
+        name       = "GitHub"
+        url        = "https://github.com/naist9000-cyber"
+        [ko.menu.social.params]
+            icon = "brand-github"
+
 [en]
     languageName = "English"
     title        = "Information TokTok"
@@ -13,3 +44,34 @@
 
     [en.params.sidebar]
         subtitle = "Let's explore information about the world"
+
+    [[en.menu.main]]
+        identifier = "home"
+        name       = "Home"
+        url        = "/"
+        weight     = 1
+        [en.menu.main.params]
+            icon = "home"
+
+    [[en.menu.main]]
+        identifier = "archives"
+        name       = "Archives"
+        url        = "/archives/"
+        weight     = 2
+        [en.menu.main.params]
+            icon = "archives"
+
+    [[en.menu.main]]
+        identifier = "search"
+        name       = "Search"
+        url        = "/search/"
+        weight     = 3
+        [en.menu.main.params]
+            icon = "search"
+
+    [[en.menu.social]]
+        identifier = "github"
+        name       = "GitHub"
+        url        = "https://github.com/naist9000-cyber"
+        [en.menu.social.params]
+            icon = "brand-github"
