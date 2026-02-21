@@ -1,11 +1,7 @@
-baseURL                = "https://demo.stack.cai.im/"
+baseURL                = "https://naist9000-cyber.github.io/newpor2026/"
 languageCode           = "ko-kr"
 title                  = "정보톡톡"
-# Theme i18n support
-# See i18n folder for available languages
 defaultContentLanguage = "ko"
-# Set hasCJKLanguage to true if DefaultContentLanguage is a CJK language
-# This will make .Summary and .WordCount behave correctly
 hasCJKLanguage         = true
 
 [[module.imports]]
@@ -18,3 +14,64 @@ hasCJKLanguage         = true
     post = "/p/:slug/"
     page = "/:slug/"
 
+[params]
+    mainSections   = ["post"]
+    rssFullContent = true
+    favicon        = "img/avatar.png"
+    
+    [params.footer]
+        since = 2026
+        customText = "정보톡톡 - 세상의 정보를 한번 알아보자"
+
+    [params.sidebar]
+        emoji    = "✏️"
+        subtitle = "세상의 정보를 한번 알아보자"
+        avatar   = "img/avatar.png"
+
+    [params.article]
+        [params.article.license]
+            enabled = false
+        
+    [params.comments]
+        enabled = false
+
+    [params.widgets]
+        homepage = [
+            { type = "search" },
+            { type = "archives", params = { limit = 5 } },
+            { type = "categories", params = { limit = 10 } },
+            { type = "tag-cloud", params = { limit = 10 } },
+        ]
+        page     = [{ type = "toc" }]
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name       = "홈"
+        url        = "/"
+        weight     = 1
+        [menu.main.params]
+            icon = "home"
+
+    [[menu.main]]
+        identifier = "archives"
+        name       = "아카이브"
+        url        = "/archives/"
+        weight     = 2
+        [menu.main.params]
+            icon = "archives"
+
+    [[menu.main]]
+        identifier = "search"
+        name       = "검색"
+        url        = "/search/"
+        weight     = 3
+        [menu.main.params]
+            icon = "search"
+
+    [[menu.social]]
+        identifier = "github"
+        name       = "GitHub"
+        url        = "https://github.com/naist9000-cyber"
+        [menu.social.params]
+            icon = "brand-github"
