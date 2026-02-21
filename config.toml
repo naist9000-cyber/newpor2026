@@ -2,7 +2,6 @@ baseURL = "/"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "My Hugo Blog - PaperMod"
-theme = "PaperMod"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -41,3 +40,5 @@ enableEmoji = true
 [markup]
     [markup.highlight]
         noClasses = false
+
+theme = 'hugo-theme-stack'
